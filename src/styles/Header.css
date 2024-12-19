@@ -1,0 +1,298 @@
+/* Estilos gerais do header */
+.header {
+    background-color: #e68a00;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+/* Container da logomarca e título */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+/* Tamanho e estilo da logomarca */
+.logo {
+    max-width: 150px;
+    width: 100%;
+    margin-right: 10px;
+}
+
+/* Barra de navegação */
+.nav {
+    background-color: #e68a00;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Container para centralizar os itens */
+.nav-containerA {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Container para centralizar os itens */
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Lista de links de navegação */
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos dos links */
+.nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.3s ease-in-out;
+}
+
+/* Efeito hover nos links */
+.nav-link:hover {
+    background-color: #006cdf;
+    transform: scale(1.05);
+}
+
+/* Links de login e cadastro */
+.auth-links {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+/* Estilos dos links de login/cadastro */
+.auth-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: 500;
+    transition: color 0.5s;
+}
+
+.auth-link:hover {
+    border-bottom: 3px solid red ;
+    transition: 0.5s;
+    color: #ff0000;
+}
+
+/* Campo de pesquisa */
+.search-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center; /* Centraliza o campo de pesquisa */
+    position: relative;
+}
+
+/* Estilo para o campo de entrada de texto */
+.search-input {
+    width: 100%;
+    padding: 10px 40px 10px 10px; /* Espaço para o ícone */
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* Colocando o ícone dentro do campo de pesquisa */
+.search-input:focus {
+    border-color: #ff0000; /* Cor do foco */
+}
+
+/* Estilo para o botão de pesquisa */
+.search-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%); /* Alinha o ícone verticalmente ao centro */
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #ff0000;
+    font-size: 25px;
+    font-weight: 800;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Efeito ao passar o mouse sobre o ícone */
+.search-button:hover {
+    color: #720000;
+}
+
+/* Media Queries para Responsividade */
+
+/* Para dispositivos maiores que 1024px (tablets e dispositivos com tela maior) */
+@media (max-width: 1024px) {
+    .nav-container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        margin-top: 20px;
+    }
+
+    .nav-link {
+        padding: 15px 20px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .auth-links {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .search-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-input {
+        max-width: 90%;
+        margin-bottom: 10px;
+    }
+
+    /* Menu hamburguer */
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        font-size: 30px;
+        color: white;
+    }
+}
+
+/* Para dispositivos com tela menor que 768px (smartphones e tablets pequenos) */
+@media (max-width: 768px) {
+    .logo {
+        max-width: 40px;
+    }
+
+    .logo-text {
+        font-size: 1.5rem;
+    }
+
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        width: 100%;
+        text-align: left;
+        padding-top: 10px;
+    }
+
+    .nav-link {
+        padding: 12px 20px;
+        width: 100%;
+    }
+
+    .auth-links {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 10px;
+    }
+
+    .search-input {
+        max-width: 90%;
+        margin-bottom: 10px;
+    }
+}
+
+/* Para dispositivos com tela menor que 480px (smartphones pequenos) */
+@media (max-width: 480px) {
+    .header {
+        padding: 15px 0;
+    }
+
+    .logo {
+        max-width: 35px;
+        margin-right: 5px;
+    }
+
+    .logo-text {
+        font-size: 1.3rem;
+        margin-bottom: 15px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .auth-link {
+        font-size: 12px;
+    }
+
+    .nav-list {
+        padding-left: 0;
+    }
+
+    .nav-container {
+        padding: 10px;
+    }
+
+    .search-input {
+        max-width: 90%;
+    }
+
+    .search-button {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    /* Ícone do menu hambúrguer */
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        font-size: 30px;
+        color: white;
+    }
+}
+
+/* Para dispositivos menores que 320px (smartphones pequenos) */
+@media (max-width: 320px) {
+    .logo {
+        max-width: 30px;
+    }
+
+    .nav-link {
+        font-size: 13px;
+    }
+
+    .auth-link {
+        font-size: 11px;
+    }
+}

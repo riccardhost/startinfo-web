@@ -1,0 +1,70 @@
+
+/* 
+
+
+
+
+* */
+  
+  #home {
+    text-align: center;
+    padding: 40px 20px;
+    background-image: url('../assets/terceira-idade-3.jpg'); /* Caminho relativo para a imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o espaço */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    color: #000000; /* Deixa o texto em branco para contraste */
+    min-height: 100vh; /* Faz o componente ocupar a altura da tela */
+  }
+  
+  .home-banner h2 {
+    margin-top: 0;
+    font-size: 2.5rem;
+  }
+  
+  .home-banner p {
+    font-size: 1.2rem;
+    margin: 10px 0 20px;
+  }
+  
+  .home-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card h3 {
+    margin-top: 0;
+    color: #e40303;
+  }
+  
+  .card p {
+    color: #333;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.391); /* Fundo semitransparente para contraste */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .home section {
+    margin: px;
+    padding: px;
+    background: #fff;
+    border-radius: 0px;
+  }
+
+
+
+
+
