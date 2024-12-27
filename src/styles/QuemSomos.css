@@ -1,0 +1,45 @@
+
+
+
+.container {
+    background-color: #b1b0afc0;
+    padding: 60px 0px 40px 0px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.AppGit {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 60px;
+    line-height: 1.6;
+  }
+  
+  .AppGit-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .AppGit-content {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+  }
+  
+  .AppGit h1 {
+    color: #d48700;
+  }
+  
+  .AppGit h2, h3 {
+    color:#d48700;
+  }
+  
+  .AppGit ul, ol {
+    margin-left: 20px;
+  }
+  
+  .AppGit code {
+    font-size: 14px;
+    background-color: #f4f4f4;
+    padding: 2px 6px;
+  }

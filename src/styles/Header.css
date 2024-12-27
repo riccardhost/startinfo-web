@@ -82,7 +82,6 @@
     text-transform: uppercase;
     transition: background-color 0.3s, transform 0.3s ease-in-out;
     text-shadow: 1px 1px 1px #5a5757c7;
-    
 }
 
 /* Efeito hover nos links */
@@ -112,7 +111,7 @@
 }
 
 .auth-linkA:hover {
-    background-color: #000000;
+    background-color: #6344b8;
     border-radius: 25px;
     transition: ease-in-out .2s;
     color: #e89404;
@@ -130,7 +129,7 @@
 }
 
 .auth-linkB:hover {
-    background-color: #c50000;
+    background-color: #b42e2e;
     border-radius: 25px;
     transition: ease-in-out .2s;
     color: #ffffff;

@@ -1,6 +1,6 @@
 import React from 'react';
-import "../styles/Footer.css"; // Importe o arquivo CSS para os estilos
-import whatsapp from "../assets/whatsapp.ico"; // Importa a logomarca
+import "../styles/Footer.css";
+import whatsapp from "../assets/whatsapp.ico"; 
 
 function Footer() {
 
@@ -52,9 +52,11 @@ function Footer() {
       </div>
 
       <div className="whatsapp-icon">
+        <a href="https://api.whatsapp.com/send?phone=5581995150302" target="_blank" rel="noopener noreferrer">
           <img src={whatsapp} alt="WhatsApp"/>
+        </a>
       </div>
-
+    
       <p> © 2024 Start Info | TODOS OS DIREITOS RESERVADOS. </p>
 
       <hr></hr>
