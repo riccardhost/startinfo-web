@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Tutorials() {
+function Tutoriais() {
 
   return (
 
-    <section id="tutorials">
+    <section id="tutoriais">
 
       <h2>Tutoriais</h2>
 
@@ -22,4 +22,4 @@ function Tutorials() {
   
 }
 
-export default Tutorials;
+export default Tutoriais;

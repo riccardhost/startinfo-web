@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Activities() {
+function QuemSomos() {
 
   return (
 
-    <section id="activities">
+    <section id="QuemSomos">
 
       <h2>Atividades Interativas</h2>
       <p>Pratique suas habilidades com jogos e desafios divertidos!</p>
@@ -15,4 +15,4 @@ function Activities() {
   
 }
 
-export default Activities;
+export default QuemSomos;

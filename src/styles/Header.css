@@ -1,9 +1,16 @@
+
+/** 
+
+
+
+****/
+
 /* Estilos gerais do header */
 .header {
-    background-color: #e68a00;
-    padding: 20px 0;
+    background-color: #e68a0000;
+    padding: 30px 0;
     text-align: center;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     position: relative;
 }
 
@@ -12,7 +19,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 /* Tamanho e estilo da logomarca */
@@ -24,7 +31,7 @@
 
 /* Barra de navegação */
 .nav {
-    background-color: #e68a00;
+    background-color: #e68a0000;
     position: relative;
     top: 0;
     width: 100%;
@@ -64,18 +71,19 @@
 
 /* Estilos dos links */
 .nav-link {
-    color: white;
+    color: #e89404;
     text-decoration: none;
     padding: 10px 20px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
     text-transform: uppercase;
     transition: background-color 0.3s, transform 0.3s ease-in-out;
 }
 
 /* Efeito hover nos links */
 .nav-link:hover {
-    background-color: #006cdf;
+    color: #ffffff;
+    background-color: #e89404;
     transform: scale(1.05);
 }
 
@@ -88,16 +96,16 @@
 
 /* Estilos dos links de login/cadastro */
 .auth-link {
-    color: white;
+    color: #e89404;
     text-decoration: none;
     padding: 10px 15px;
-    font-weight: 500;
-    transition: color 0.5s;
+    font-weight: 700;
+    transition: ease .5s;
 }
 
 .auth-link:hover {
     border-bottom: 3px solid red ;
-    transition: 0.5s;
+    transition: ease .5s;
     color: #ff0000;
 }
 
@@ -124,7 +132,7 @@
 
 /* Colocando o ícone dentro do campo de pesquisa */
 .search-input:focus {
-    border-color: #ff0000; /* Cor do foco */
+    border-color: #e89404; /* Cor do foco */
 }
 
 /* Estilo para o botão de pesquisa */
@@ -136,7 +144,7 @@
     background: transparent;
     border: none;
     cursor: pointer;
-    color: #ff0000;
+    color: #e89404;
     font-size: 25px;
     font-weight: 800;
     transition: color 0.3s ease-in-out;
@@ -144,155 +152,15 @@
 
 /* Efeito ao passar o mouse sobre o ícone */
 .search-button:hover {
-    color: #720000;
+    color: #ff0000;
 }
+
+#banner {
+    background-image: url('../assets/banner-terceira-idade1.jpg');
+    background-size: cover ; /* Ajusta a imagem para cobrir todo o espaço */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    min-height: 40vh; /* Faz o componente ocupar a altura da tela */
+  }
 
 /* Media Queries para Responsividade */
-
-/* Para dispositivos maiores que 1024px (tablets e dispositivos com tela maior) */
-@media (max-width: 1024px) {
-    .nav-container {
-        flex-direction: column;
-        padding: 10px;
-    }
-
-    .nav-list {
-        flex-direction: column;
-        width: 100%;
-        align-items: flex-start;
-        margin-top: 20px;
-    }
-
-    .nav-link {
-        padding: 15px 20px;
-        width: 100%;
-        text-align: left;
-    }
-
-    .auth-links {
-        flex-direction: column;
-        margin-top: 20px;
-    }
-
-    .search-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .search-input {
-        max-width: 90%;
-        margin-bottom: 10px;
-    }
-
-    /* Menu hamburguer */
-    .menu-icon {
-        display: block;
-        cursor: pointer;
-        font-size: 30px;
-        color: white;
-    }
-}
-
-/* Para dispositivos com tela menor que 768px (smartphones e tablets pequenos) */
-@media (max-width: 768px) {
-    .logo {
-        max-width: 40px;
-    }
-
-    .logo-text {
-        font-size: 1.5rem;
-    }
-
-    .nav-container {
-        flex-direction: column;
-    }
-
-    .nav-list {
-        flex-direction: column;
-        width: 100%;
-        text-align: left;
-        padding-top: 10px;
-    }
-
-    .nav-link {
-        padding: 12px 20px;
-        width: 100%;
-    }
-
-    .auth-links {
-        flex-direction: column;
-        align-items: flex-start;
-        padding-top: 10px;
-    }
-
-    .search-input {
-        max-width: 90%;
-        margin-bottom: 10px;
-    }
-}
-
-/* Para dispositivos com tela menor que 480px (smartphones pequenos) */
-@media (max-width: 480px) {
-    .header {
-        padding: 15px 0;
-    }
-
-    .logo {
-        max-width: 35px;
-        margin-right: 5px;
-    }
-
-    .logo-text {
-        font-size: 1.3rem;
-        margin-bottom: 15px;
-    }
-
-    .nav-link {
-        font-size: 14px;
-        padding: 10px 20px;
-    }
-
-    .auth-link {
-        font-size: 12px;
-    }
-
-    .nav-list {
-        padding-left: 0;
-    }
-
-    .nav-container {
-        padding: 10px;
-    }
-
-    .search-input {
-        max-width: 90%;
-    }
-
-    .search-button {
-        padding: 10px;
-        font-size: 14px;
-    }
-
-    /* Ícone do menu hambúrguer */
-    .menu-icon {
-        display: block;
-        cursor: pointer;
-        font-size: 30px;
-        color: white;
-    }
-}
-
-/* Para dispositivos menores que 320px (smartphones pequenos) */
-@media (max-width: 320px) {
-    .logo {
-        max-width: 30px;
-    }
-
-    .nav-link {
-        font-size: 13px;
-    }
-
-    .auth-link {
-        font-size: 11px;
-    }
-}

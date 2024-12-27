@@ -1,17 +1,17 @@
 
-/* 
+/** 
 
 
 
 
-* */
+****/
 
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background: #f9f9f9;
+  background: #dbdbdb;
   color: #333;
 }
 
@@ -29,10 +29,10 @@ header nav a {
 }
 
 section {
-  margin: 20px;
-  padding: 20px;
-  background: #fff;
-  border-radius: 8px;
+  margin: 20px 220px;
+  padding: 30px;
+  background: #ffae0094;
+  border-radius: 10px;
 }
 
 footer {
@@ -41,5 +41,3 @@ footer {
   background: #333;
   color: #fff;
 }
-
-
