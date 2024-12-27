@@ -8,7 +8,7 @@
 /* Estilos gerais do header */
 .header {
     background-color: #e68a0000;
-    padding: 30px 0;
+    padding: 150px 0;
     text-align: center;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     position: relative;
@@ -24,9 +24,10 @@
 
 /* Tamanho e estilo da logomarca */
 .logo {
-    max-width: 150px;
+    max-width: 180px;
     width: 100%;
     margin-right: 10px;
+    filter: drop-shadow(0px 2px 2px #00000058);
 }
 
 /* Barra de navegação */
@@ -39,6 +40,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 /* Container para centralizar os itens */
@@ -49,6 +51,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    filter: drop-shadow(0px 2px 2px #00000058);
 }
 
 /* Container para centralizar os itens */
@@ -73,17 +76,20 @@
 .nav-link {
     color: #e89404;
     text-decoration: none;
-    padding: 10px 20px;
-    font-size: 18px;
+    padding: 8px 30px;
+    font-size: 1.3rem;
     font-weight: 700;
     text-transform: uppercase;
     transition: background-color 0.3s, transform 0.3s ease-in-out;
+    text-shadow: 1px 1px 1px #5a5757c7;
+    
 }
 
 /* Efeito hover nos links */
 .nav-link:hover {
     color: #ffffff;
     background-color: #e89404;
+    border-bottom: 3px solid rgb(0, 0, 0);
     transform: scale(1.05);
 }
 
@@ -91,40 +97,63 @@
 .auth-links {
     display: flex;
     align-items: center;
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 /* Estilos dos links de login/cadastro */
-.auth-link {
-    color: #e89404;
+.auth-linkA {
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 50px 0px 50px 0px;
     text-decoration: none;
-    padding: 10px 15px;
-    font-weight: 700;
+    padding: 4px 50px;
+    font-weight: 600;
     transition: ease .5s;
 }
 
-.auth-link:hover {
-    border-bottom: 3px solid red ;
+.auth-linkA:hover {
+    background-color: #e89404;
+    border-radius: 25px;
+    transition: ease-in-out .2s;
+    color: #000000;
+}
+
+/* Estilos dos links de login/cadastro */
+.auth-linkB {
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 50px 0px 50px 0px;
+    text-decoration: none;
+    padding: 4px 50px;
+    font-weight: 600;
     transition: ease .5s;
-    color: #ff0000;
+}
+
+.auth-linkB:hover {
+    background-color: #e60000;
+    border-radius: 25px;
+    transition: ease-in-out .2s;
+    color: #000000;
 }
 
 /* Campo de pesquisa */
 .search-container {
     width: 100%;
-    max-width: 600px;
-    margin: 20px auto;
+    max-width: 800px;
+    margin: 30px auto;
     display: flex;
     justify-content: center; /* Centraliza o campo de pesquisa */
     position: relative;
+    filter: drop-shadow(0px 2px 2px #00000058);
 }
 
 /* Estilo para o campo de entrada de texto */
 .search-input {
     width: 100%;
-    padding: 10px 40px 10px 10px; /* Espaço para o ícone */
-    font-size: 18px;
-    border: 1px solid #ccc;
+    padding: 12px 40px 12px 12px; /* Espaço para o ícone */
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: 2px solid #e89404;
     border-radius: 10px;
     outline: none;
     transition: border-color 0.3s ease-in-out;
@@ -145,18 +174,18 @@
     border: none;
     cursor: pointer;
     color: #e89404;
-    font-size: 25px;
-    font-weight: 800;
+    font-size: 2rem;
+    font-weight: 900;
     transition: color 0.3s ease-in-out;
 }
 
 /* Efeito ao passar o mouse sobre o ícone */
 .search-button:hover {
-    color: #ff0000;
+    color: #ff8400;
 }
 
 #banner {
-    background-image: url('../assets/banner-terceira-idade1.jpg');
+    background-image: url('../assets/idosos-celulars.jpg');
     background-size: cover ; /* Ajusta a imagem para cobrir todo o espaço */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita a repetição da imagem */

@@ -31,11 +31,11 @@ function Header() {
 
           <div className="auth-links">
 
-            <Link to="/login" className="auth-link">
+            <Link to="/login" className="auth-linkA">
               Login
             </Link>{" "}
 
-            <Link to="/signup" className="auth-link">
+            <Link to="/signup" className="auth-linkB">
               Cadastro
             </Link>
 
@@ -46,6 +46,7 @@ function Header() {
       </nav>
 
       <nav className="nav">
+        
         <div className="nav-container">
           {/* Lista de links de navegação */}
           <ul className="nav-list">
