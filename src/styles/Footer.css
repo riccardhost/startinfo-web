@@ -183,7 +183,7 @@
 
 .whatsapp-icon {
     position: fixed;
-    bottom: 30px;
+    bottom: 40px;
     right: 35px;
     z-index: 1000;
     /* Para garantir que o ícone esteja sempre visível */
@@ -200,7 +200,6 @@
 .whatsapp-icon img:hover {
     transform: scale(1.15);
 }
-
 
 /* Responsividade */
 @media (max-width: 768px) {

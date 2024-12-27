@@ -15,7 +15,7 @@ function Footer() {
           <div className="footer-links">
             <h4>Institucional</h4>
             <ul>
-              <li><a href="/">Sobre nós</a></li>
+              <li><a href="/quemsomos">Quem Somos</a></li>
               <li><a href="/">Termos de Uso</a></li>
               <li><a href="/">Política de Privacidade</a></li>
               <li><a href="/">Mapa do Site</a></li>
@@ -28,7 +28,7 @@ function Footer() {
 
             <ul>
               <li><a href="mailto:suporte@letramentodigital.com">Via E-mail</a></li>
-              <li><a href="https://api.whatsapp.com/send?phone=numbercel">Via WhatsApp</a></li>
+              <li><a href="https://api.whatsapp.com/send?phone=5581995150302">Via WhatsApp</a></li>
             </ul>
 
           </div>
@@ -55,7 +55,9 @@ function Footer() {
           <img src={whatsapp} alt="WhatsApp"/>
       </div>
 
-      <p> © 2024 Letramento Digital | TODOS OS DIREITOS RESERVADOS. </p>
+      <p> © 2024 Start Info | TODOS OS DIREITOS RESERVADOS. </p>
+
+      <hr></hr>
 
     </footer>
 

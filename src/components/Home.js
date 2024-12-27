@@ -17,7 +17,7 @@ function Home() {
 
         <p>
 
-          Nosso objetivo é proporcionar aos idosos o desenvolvimento de habilidades digitais de maneira <strong style={{ color: 'blue' }}> SIMPLES</strong>,<strong style={{ color: 'blue' }}> PRÁTICA </strong> e <strong style={{ color: 'blue' }}> PRAZEROSA</strong>, promovendo autonomia e bem-estar através da #tecnologia.
+          Nosso objetivo é proporcionar aos idosos o desenvolvimento de habilidades digitais de maneira <strong style={{ color: 'blue' }}> SIMPLES</strong>,<strong style={{ color: 'green' }}> PRÁTICA </strong> e <strong style={{ color: 'red' }}> PRAZEROSA</strong>, promovendo autonomia e bem-estar através da #tecnologia.
 
         </p>
 
