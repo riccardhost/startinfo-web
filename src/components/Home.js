@@ -11,13 +11,13 @@ function Home() {
 
     <section>
 
-      <div className="titulo">
+      <div className="tituloHome">
 
         <h2>Felicidade no Letramento Digital</h2>
 
         <p>
 
-          Nosso objetivo é proporcionar aos idosos o desenvolvimento de habilidades digitais de maneira <strong style={{ color: 'blue' }}> SIMPLES</strong>,<strong style={{ color: 'green' }}> PRÁTICA </strong> e <strong style={{ color: 'red' }}> PRAZEROSA</strong>, promovendo autonomia e bem-estar através da #tecnologia.
+        Nosso objetivo é proporcionar aos idosos o desenvolvimento de habilidades digitais de maneira <strong style={{ color: 'blue' }}> SIMPLES</strong>,<strong style={{ color: 'green' }}> PRÁTICA </strong> e <strong style={{ color: 'red' }}> PRAZEROSA</strong>, promovendo autonomia e bem-estar através da #tecnologia.
 
         </p>
 
@@ -28,7 +28,7 @@ function Home() {
         <div className="card">
           <h3>Aprenda no Seu Ritmo!</h3>
           <img src={idoso}
-           alt="Logomarca do Pix"
+           alt="Icone de Mão com Coração"
            className="idoso"
            />
           <p>Tutoriais simples e fáceis de acompanhar.</p>

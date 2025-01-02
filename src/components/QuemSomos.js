@@ -7,13 +7,13 @@ import '../styles/QuemSomos.css';
 const markdownContent = `
 # Projeto Start Info
 
-**Start Info** é um projeto focado no **letramento digital para idosos**, com o objetivo de promover a inclusão digital e melhorar a qualidade de vida dessa população. Através deste projeto, buscamos ensinar aos idosos como utilizar a tecnologia de maneira segura e eficiente, permitindo que se conectem com o mundo digital e acessem uma variedade de serviços e recursos.
+**Start Info** é um projeto focado no **Letramento Digital para Idosos**, com o objetivo de promover a inclusão digital e melhorar a qualidade de vida dessa população. Através deste projeto, buscamos ensinar aos idosos como utilizar a tecnologia de maneira segura e eficiente, permitindo que se conectem com o mundo digital e acessem uma variedade de serviços e recursos.
 
 ## Objetivos do Projeto 🎯
 
 - **Promoção da Inclusão Digital** 📱: Ensinar aos idosos como utilizar dispositivos digitais (computadores, smartphones e tablets), além de navegar na internet, usar e-mails, redes sociais e acessar serviços online.
   
-- **Desenvolvimento de Habilidades Digitais** 💻: Capacitar os idosos para o uso de ferramentas essenciais como aplicativos de mensagens (WhatsApp), videoconferências (Zoom, Skype), e-commerce, entre outros.
+- **Desenvolvimento de Habilidades Digitais** 💻: Capacitar os idosos para o uso de ferramentas essenciais como aplicativos de mensagens (WhatsApp), videoconferências (Zoom, Skype), E-commerce, entre outros.
 
 - **Empoderamento e Independência** 🌟: Oferecer aos idosos mais autonomia, permitindo-lhes acessar serviços como bancos online, consultas médicas, e fazer compras pela internet.
 

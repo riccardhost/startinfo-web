@@ -5,21 +5,21 @@
 
 ****/
   
-  #titulo {
+  #tituloHome {
     text-align: center;
     padding: 40px 20px;
     color: #000000; 
     min-height: 50vh;
   }
   
-  .titulo h2 {
+  .tituloHome h2 {
     margin: 0;
     font-size: 3rem;
     text-align: center;
     text-shadow: 1px 1px 1px #5a5757c7;
   }
   
-  .titulo p {
+  .tituloHome p {
     font-size: 1.3rem;
     text-align: center;
     margin: 10px;
