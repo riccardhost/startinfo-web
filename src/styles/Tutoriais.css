@@ -27,26 +27,26 @@
     text-shadow: 1px 1px 1px #5a5757c7;
   }
   
-  .cards {
+  .cardsTutorial {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
   }
   
-  .card h3 {
+  .cardTutorial h3 {
     font-size: 1.3rem;
     margin-top: 0;
     color: #e40303;
   }
   
-  .card p {
+  .cardTutorial p {
     font-size: 1rem;
     text-align: justify;
     color: #333;
   }
   
-  .card {
+  .cardTutorial {
     background: rgba(255, 255, 255, 0.391); /* Fundo semitransparente para contraste */
     border-radius: 8px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
@@ -56,7 +56,7 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
-  .card:hover {
+  .cardTutorial:hover {
     transform: translateY(-10px);
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
   }
@@ -99,13 +99,13 @@
   height: auto; 
 }
 
-.text h1 {
+.textTutorial h1 {
   padding-left: 30px;
   text-align: justify; 
   font-size: 2.5rem;
 }
 
-.text p {
+.textTutorial p {
   flex: 2;
   padding-left: 30px;
   text-align: justify; 

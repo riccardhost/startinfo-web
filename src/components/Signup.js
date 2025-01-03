@@ -14,17 +14,23 @@ function Signup() {
           Nome:
           <input type="text" name="name" required />
         </label>
+
         <br />
+
         <label>
           Email:
           <input type="email" name="email" required />
         </label>
+
         <br />
+
         <label>
           Senha:
           <input type="password" name="password" required />
         </label>
+
         <br />
+        
         <button type="submit">Cadastrar</button>
 
       </form>

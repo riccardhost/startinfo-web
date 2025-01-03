@@ -1,0 +1,61 @@
+
+
+
+.carrossel {
+    position: relative;
+    max-width: 1200px;
+    max-height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .carrossel-imagem {
+    display: flex;
+    transition: transform 1s ease-in-out;
+  }
+  
+  .carrossel-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .carrossel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #e89404;
+    border: none;
+    font-size: 1.5rem;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8%;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carrossel button:hover {
+    background-color: #da7000;
+  }
+  
+  .carrossel .prev {
+    left: 8px;
+  }
+  
+  .carrossel .next {
+    right: 8px;
+  }
+  
+  /* Adicionando animação de fade in */
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 5; }
+  }
+  
+  .carrossel-imagem img {
+    animation: fadeIn 3s ease-out;
+  }
+  

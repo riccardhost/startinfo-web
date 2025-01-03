@@ -119,7 +119,7 @@
 
 /* Estilos dos links de login/cadastro */
 .auth-linkB {
-    color:  #e89404;
+    color: #e89404;
     background-color: #000000;
     border-radius: 50px 0px 50px 0px;
     text-decoration: none;
@@ -160,7 +160,7 @@
 
 /* Colocando o ícone dentro do campo de pesquisa */
 .search-input:focus {
-    border-color: #e89404; /* Cor do foco */
+    border-color: #da7000; /* Cor do foco */
 }
 
 /* Estilo para o botão de pesquisa */
@@ -180,7 +180,7 @@
 
 /* Efeito ao passar o mouse sobre o ícone */
 .search-button:hover {
-    color: #ff8400;
+    color: #da7000;
 }
 
 #banner {

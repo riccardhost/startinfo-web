@@ -4,6 +4,8 @@ import idoso from "../assets/idoso3.png";
 import atividades from "../assets/atividades.png";
 import comunidade from "../assets/acolhimento2.png";
 import casal_idosos from "../assets/casal_idosos-removebg.png";
+import Carrossel from '../components/Carrossel';
+import "../styles/Carrossel.css";
 
 function Home() {
 
@@ -15,17 +17,19 @@ function Home() {
 
         <h2>Felicidade no Letramento Digital</h2>
 
+        <p><Carrossel /></p>
+
         <p>
 
-        Nosso objetivo é proporcionar aos idosos o desenvolvimento de habilidades digitais de maneira <strong style={{ color: 'blue' }}> SIMPLES</strong>,<strong style={{ color: 'green' }}> PRÁTICA </strong> e <strong style={{ color: 'red' }}> PRAZEROSA</strong>, promovendo autonomia e bem-estar através da #tecnologia.
+        Nosso objetivo é proporcionar aos idosos o desenvolvimento de habilidades digitais de maneira <strong style={{ color: 'blue' }}> SIMPLES</strong>,<strong style={{ color: 'green' }}> PRÁTICA </strong> e <strong style={{ color: 'red' }}> PRAZEROSA</strong>, promovendo autonomia e bem-estar através da #TECNOLOGIA.
 
         </p>
 
       </div>
 
-      <div className="cards">
+      <div className="cardsHome">
 
-        <div className="card">
+        <div className="cardHome">
           <h3>Aprenda no Seu Ritmo!</h3>
           <img src={idoso}
            alt="Icone de Mão com Coração"
@@ -34,7 +38,7 @@ function Home() {
           <p>Tutoriais simples e fáceis de acompanhar.</p>
         </div>
 
-        <div className="card">
+        <div className="cardHome">
           <h3>Atividades Interativas</h3>
           <img src={atividades}
            alt="Logomarca de Atividades"
@@ -43,7 +47,7 @@ function Home() {
           <p>Pratique suas novas habilidades com exercícios.</p>
         </div>
 
-        <div className="card">
+        <div className="cardHome">
           <h3>Comunidade Acolhedora</h3>
           <img src={comunidade}
            alt="Logomarca de Comunidade"
